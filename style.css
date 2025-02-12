@@ -1,0 +1,134 @@
+#top{
+    font-family: "Dancing Script",cursive;
+    background-color: darkgrey;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 415px;
+    margin: 0 auto;
+}
+
+#top ul{
+    padding: 20px 15px;
+    margin: 0px;
+    text-align: center;
+}
+
+#top ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+#top ul li a{
+    color: yellow;
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+#top ul li a:hover{
+    border-bottom: 3px solid whitesmoke;
+    transition: 50ms linear 0s;
+    -moz-transition: 50ms linear 0s;
+    -webkit-transition: 50ms linear 0s;
+}
+
+body{
+    background-color: wheat;
+}
+
+#eve{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#eve h1{
+    text-align: center;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#eve p{
+    color: navy;
+    text-align: left;
+    width: 420px;
+    margin: 0px auto;
+}
+
+#eve img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+
+#eve ul{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Paw{
+    text-align: center;
+}
+
+#img1{
+    padding-bottom: 7px;
+}
+
+#img2{
+    padding-bottom: 7px;
+}
+
+#img3{
+    padding-bottom: 7px;
+}
+
+#img4{
+    padding-bottom: 7px;
+}
+
+#img5{
+    padding-bottom: 7px;
+}
+
+footer{
+    border-top: 20px solid gray;
+    width: 415px;
+    margin: 0px auto;
+
+}
+
+footer p{
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#ftnav{
+    padding: 7px;
+    padding-left: 0px;
+    float: left;
+}
+
+#ftnav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#ftnav ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+#ftnav ul li a:link, #ftnav ul li a:visited{
+    color: black;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+#ftnav ul li a:hover{
+    color: green;
+}
