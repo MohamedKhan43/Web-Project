@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: wheat;
+    background-color: black;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 41px;
+    outline: 4px solid yellowgreen;
+}
+
+.ancors{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.ancors a:link{
+    text-decoration: none;
+    font-size: 1.5rem; 
+    font-weight: bold;
+}
+
+.ancors a:hover{
+    color: red;
+}
+
+.active{
+    color: red !important;
+}
+
+nav{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+button{
+    font-size: 2rem;
+    padding: 0.6rem 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(red, yellow);
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background: white;
+    outline: 1px solid red;
+    color: red;
+    border: none;
+}
+
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.short{
+    font-size: 10px;
+    font-size: 3rem;
+    color: red;
+}
+.mainhead{
+    padding: 10px;
+    color: wheat;
+    font-size: 4rem;
+}
+
+.subhead{
+    margin-top: 10px;
+    font-size: 20px;
+    color: lightcyan;
+
+}
+
+.user img{
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    border: 2px solid red;
+}
+
+.user{
+    padding-top: 10px;
+}
+
+.Shoping{
+    align-self: start;
+    margin-top: 20px;
+}
+
+.fluid{
+    height: 100px;
+    width: 100px;
+}
+
+@media  screen{
+    .row{
+        grid-template-columns: 1fr;
+    }
+    .Shoping{
+    align-self: start;
+    margin: 1rem 0px;
+}
+}
